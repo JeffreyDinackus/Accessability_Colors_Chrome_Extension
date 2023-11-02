@@ -1,0 +1,15 @@
+
+
+Add proper color schemes
+
+Add color selection menu ion html 
+
+save setting selected using cookies (?)
+
+modify action of content.js to style websites properly
+
+modify content.js to use cookie to choose proper color scheme
+
+test and debug
+
+release and take pictures
