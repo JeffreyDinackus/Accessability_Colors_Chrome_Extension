@@ -15,8 +15,8 @@ function getCookies(name, callback) {
 }
 
 //usage:
-getCookies("http://www.example.com", "id", function (id) {
-  alert(id);
+getCookies("colorblind", function (value) {
+  console.log(value);
 });
 
 // // Change the background color of every even-indexed div

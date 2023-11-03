@@ -13,3 +13,13 @@ modify content.js to use cookie to choose proper color scheme
 test and debug
 
 release and take pictures
+
+
+
+
+"icons": {
+    "128": "icon.png"
+  },
+
+
+      "default_icon": "icon.png"
