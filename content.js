@@ -1,8 +1,9 @@
 
+console.log("content.js running")
+
 // let getting = browser.cookies.get(
 //   details                // object
 // )
-
 
 // !!(await Cookies.get('my-cookie'));
 

@@ -5,7 +5,7 @@
   "description": "Color schemes for the colorblind",
   "permissions": [
     "activeTab",
-    "cookies"
+    "storage"
   ],
   "content_scripts": [
     {
