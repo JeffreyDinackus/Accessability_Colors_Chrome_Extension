@@ -37,3 +37,12 @@
 
 
 // //now using storage api, seems like it makes more sense for my use case and the google cookies docs are garbage
+key = "key"
+value = "x"
+chrome.storage.sync.set({ key: value }).then(() => {
+    console.log("Value is set");
+  });
+  
+  chrome.storage.sync.get(["key"]).then((result) => {
+    console.log("Value currently is " + result.key);
+  });
