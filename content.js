@@ -6,18 +6,18 @@
 
 // !!(await Cookies.get('my-cookie'));
 
-function getCookies(name, callback) {
-  chrome.cookies.get({ "name": name }, function (cookie) {
-    if (callback) {
-      callback(cookie.value);
-    }
-  });
-}
+// function getCookies(name, callback) {
+//   chrome.cookies.get({ "name": name }, function (cookie) {
+//     if (callback) {
+//       callback(cookie.value);
+//     }
+//   });
+// }
 
-//usage:
-getCookies("colorblind", function (value) {
-  console.log(value);
-});
+// //usage:
+// getCookies("colorblind", function (value) {
+//   console.log(value);
+// });
 
 // // Change the background color of every even-indexed div
 // let divs = document.getElementsByTagName('div');
