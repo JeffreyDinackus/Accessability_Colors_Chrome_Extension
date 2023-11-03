@@ -37,16 +37,3 @@
 
 
 // //now using storage api, seems like it makes more sense for my use case and the google cookies docs are garbage
-// const key = "x";
-// const value = "y";
-
-// const setObject = {};
-// setObject[key] = value;
-
-// chrome.storage.local.set(setObject, () => {
-//   console.log("Value is set");
-// });
-
-// chrome.storage.local.get([key], (result) => {
-//   console.log("Value currently is " + result[key]);
-// });
