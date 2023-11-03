@@ -3,21 +3,15 @@ console.log("content.js running")
 
 
 
+let IBM = {
 
-let IMB = {
-    "IBM":[
-      {"firstName":"John", "lastName":"Doe"},
-      {"firstName":"Anna", "lastName":"Smith"},
-      {"firstName":"Peter", "lastName":"Jones"},
-      {"div" : ""}, {"table" : ""}, {"a" : ""}, {"span" : ""}, {"p" : ""}, {"body" : ""}, {"navbar" : ""}
-    
-    
-    ]
-    }
+  "div" : "","table" : "", "a" : "", "span" : "","p" : "","body" : "", "navbar" :""
 
-COLORIBM = JSON.parse(IBM)
 
-console.log(COLORIBM)
+};
+
+
+console.log(IBM)
 // let getting = browser.cookies.get(
 //   details                // object
 // )
