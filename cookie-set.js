@@ -31,18 +31,37 @@
 //     console.log(error)
 //     create("IBM");
 //   } 
- 
-  
+
+
 // };
 
+// Function for Button 1
+document.getElementById('scheme1').addEventListener('click', function () {
+  key = "colorblind"
+  value = "IBM"
+  chrome.storage.sync.set({ key: value }).then(() => {
+    console.log("IBM is set");
+  });
+});
 
+// Function for Button 2
+document.getElementById('scheme2').addEventListener('click', function () {
+  key = "colorblind"
+  value = "WONG"
+  chrome.storage.sync.set({ key: value }).then(() => {
+    console.log("Wong is set");
+  });
+});
+
+// Function for Button 3
+document.getElementById('scheme3').addEventListener('click', function () {
+  key = "colorblind"
+  value = "Tol"
+  chrome.storage.sync.set({ key: value }).then(() => {
+    console.log("Tol is set");
+  });
+});
 // //now using storage api, seems like it makes more sense for my use case and the google cookies docs are garbage
-key = "key"
-value = "x"
-chrome.storage.sync.set({ key: value }).then(() => {
-    console.log("Value is set");
-  });
-  
-  chrome.storage.sync.get(["key"]).then((result) => {
-    console.log("Value currently is " + result.key);
-  });
+
+
+

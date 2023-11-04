@@ -1,7 +1,39 @@
 .float-child {
     display: inline-block;
-}  
+}
 
 .center {
     text-align: center;
+}
+
+.ibm1 {
+    color: #648FFF;
+    width: 200;
+    height: 200;
+}
+
+#scheme1p {
+    background-color: #648FFF;
+    color: #FE6100
+}
+
+#scheme1text {
+    background-color: #785EF0;
+    color: #DC267F
+}
+
+#scheme1b {
+    background-color: #FE6100;
+    color: #648FFF
+}
+
+
+
+
+#scheme1b {
+    background-color: #FFB000;
+}
+
+button {
+    margin-top: 10px;
 }

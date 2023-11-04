@@ -5,13 +5,14 @@ console.log("content.js running")
 
 let IBM = {
 
-  "div" : "","table" : "", "a" : "", "span" : "","p" : "","body" : "", "navbar" :""
+  "div": "", "table": "", "a": "", "span": "", "p": "", "body": "", "navbar": ""
 
 
 };
 
-
-console.log(IBM)
+chrome.storage.sync.get(["key"]).then((result) => {
+  console.log("Value currently is " + result.key);
+});
 // let getting = browser.cookies.get(
 //   details                // object
 // )
