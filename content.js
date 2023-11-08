@@ -25,27 +25,54 @@ chrome.storage.sync.get(["key"]).then((result) => {
 
     for (let i = 0; i < div.length; i++) {
       div[i].style.backgroundColor = '#DC267F';
+      div[i].style.color = '#FFB000';
     };
 
 
+
+    const a = document.querySelectorAll("a");
+
+    for (let i = 0; i < a.length; i++) {
+      a[i].style.color = '#785EF0';
+      a[i].style.backgroundColor = "#FFB000"
+    };
+    const textarea = document.querySelectorAll("textarea");
+    for (let i = 0; i < a.length; i++) {
+      textarea[i].style.backgroundColor = "#FFB000"
+    };
+
+    const input = document.querySelectorAll("input");
+    for (let i = 0; i < a.length; i++) {
+      input[i].style.color = '#648FFF';
+      input[i].style.backgroundColor = "#FFB000"
+    };
     const span = document.querySelectorAll("span");
 
     for (let i = 0; i < span.length; i++) {
       span[i].style.color = '#648FFF';
+      span[i].style.backgroundColor = "#785EF0"
     };
-    const a = document.querySelectorAll("a");
-
-    for (let i = 0; i < a.length; i++) {
-      a[i].style.color = '#648FFF';
-      a[i].style.backgroundColor = "#FFB000"
-    };
-
     const button = document.querySelectorAll("button");
 
     for (let i = 0; i < button.length; i++) {
       button[i].style.backgroundColor = '#FFB000';
     };
     const h1 = document.querySelectorAll("h1");
+    for (let i = 0; i < h1.length; i++) {
+      h1[i].style.color = '#648FFF';
+      h1[i].style.backgroundColor = '#FFB000';
+
+    };
+
+    const p = document.querySelectorAll("p");
+    for (let i = 0; i < p.length; i++) {
+      p[i].style.color = '#648FFF';
+    };
+
+
+
+
+
     const h2 = document.querySelectorAll("h2");
 
     const h3 = document.querySelectorAll("h3");
@@ -56,7 +83,23 @@ chrome.storage.sync.get(["key"]).then((result) => {
 
     const h6 = document.querySelectorAll("h6");
 
+    for (let i = 0; i < h2.length; i++) {
+      h2[i].style.color = '#648FFF';
+      h2[i].style.backgroundColor = '#FFB000';
 
+    };
+    for (let i = 0; i < h3.length; i++) {
+      h3[i].style.color = '#648FFF';
+    };
+    for (let i = 0; i < h4.length; i++) {
+      h4[i].style.color = '#648FFF';
+    };
+    for (let i = 0; i < h5.length; i++) {
+      h5[i].style.color = '#648FFF';
+    };
+    for (let i = 0; i < h6.length; i++) {
+      h6[i].style.color = '#648FFF';
+    };
   } else if (result.key == "Wong") {
     console.log("WONG TRUE");
   } else if (result.key == "Tol") {
