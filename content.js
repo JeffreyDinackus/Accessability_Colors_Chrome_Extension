@@ -21,25 +21,52 @@ function color() {
 
     if (result.key == "IBM") {
       console.log("IBM TRUE");
-      const div = document.querySelectorAll("div");
+      // const div = document.querySelectorAll("div");
 
-      for (let i = 0; i < div.length; i++) {
-        div[i].style.backgroundColor = '#DC267F';
-        div[i].style.color = '#FFB000';
+      // for (let i = 0; i < div.length; i++) {
+      //   div[i].style.backgroundColor = '#DC267F';
+      //   div[i].style.color = '#FFB000';
+      // };
+
+      // const img = document.querySelectorAll("img");
+
+      // for (let i = 0; i < img.length; i++) {
+      //   img[i].style.backgroundColor = '';
+      //   img[i].style.color = '';
+      // };
+
+      color1 = '#FFB000'
+      color2 = '#785EF0'
+      accent = '#DC267F'
+      const code = document.querySelectorAll("code");
+
+      for (let i = 0; i < code.length; i++) {
+        code[i].style.backgroundColor = color1;
+        code[i].style.color = accent;
       };
 
-      const img = document.querySelectorAll("img");
+      const li = document.querySelectorAll("li");
 
-      for (let i = 0; i < div.length; i++) {
-        div[i].style.backgroundColor = '';
-        div[i].style.color = '';
+      for (let i = 0; i < code.length; i++) {
+        li[i].style.backgroundColor = color1;
+        li[i].style.color = color2;
       };
-
       const a = document.querySelectorAll("a");
 
       for (let i = 0; i < a.length; i++) {
-        a[i].style.color = '#785EF0';
-        a[i].style.backgroundColor = "#FFB000"
+        a[i].style.color = color1;
+        a[i].style.backgroundColor = color2
+      };
+      const cite = document.querySelectorAll("cite");
+
+      for (let i = 0; i < cite.length; i++) {
+        cite[i].style.color = color1;
+        cite[i].style.backgroundColor = color2
+      };
+      const div = document.querySelectorAll("div");
+
+      for (let i = 0; i < div.length; i++) {
+        div[i].style.color = color1;
       };
       // const textarea = document.querySelectorAll("textarea");
       // for (let i = 0; i < a.length; i++) {
@@ -54,8 +81,8 @@ function color() {
       const span = document.querySelectorAll("span");
 
       for (let i = 0; i < span.length; i++) {
-        span[i].style.color = '#648FFF';
-        span[i].style.backgroundColor = "#FFB000"
+        span[i].style.color = color1;
+        span[i].style.backgroundColor = color2
       };
       const button = document.querySelectorAll("button");
 
@@ -71,7 +98,7 @@ function color() {
 
       const p = document.querySelectorAll("p");
       for (let i = 0; i < p.length; i++) {
-        p[i].style.color = '#FFB000';
+        p[i].style.color = '#648FFF';
         p[i].style.backgroundColor = '#FFB000';
       };
 
@@ -90,21 +117,25 @@ function color() {
       const h6 = document.querySelectorAll("h6");
 
       for (let i = 0; i < h2.length; i++) {
-        h2[i].style.color = '#648FFF';
-        h2[i].style.backgroundColor = '#FFB000';
+        h2[i].style.color = color1;
+        h2[i].style.backgroundColor = color2;
 
       };
       for (let i = 0; i < h3.length; i++) {
-        h3[i].style.color = '#648FFF';
+        h3[i].style.color = color1;
+        h3[i].style.backgroundColor = color2;
       };
       for (let i = 0; i < h4.length; i++) {
-        h4[i].style.color = '#648FFF';
+        h4[i].style.color = color1;
+        h4[i].style.backgroundColor = color2;
       };
       for (let i = 0; i < h5.length; i++) {
-        h5[i].style.color = '#648FFF';
+        h5[i].style.color = color1;
+        h5[i].style.backgroundColor = color2;
       };
       for (let i = 0; i < h6.length; i++) {
-        h6[i].style.color = '#648FFF';
+        h6[i].style.color = color1;
+        h6[i].style.backgroundColor = color2;
       };
     } else if (result.key == "Wong") {
       console.log("WONG TRUE");
