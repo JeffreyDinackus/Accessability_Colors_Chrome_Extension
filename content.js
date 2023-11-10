@@ -37,8 +37,10 @@ function color() {
 
       color1 = '#FFB000'
       color2 = '#785EF0'
-      accent = '#DC267F'
+      accent = '#785EF0'
       const code = document.querySelectorAll("code");
+      body = document.querySelector("body");
+      body.style.backgroundColor = accent
 
       for (let i = 0; i < code.length; i++) {
         code[i].style.backgroundColor = color1;
@@ -55,7 +57,6 @@ function color() {
 
       for (let i = 0; i < a.length; i++) {
         a[i].style.color = color1;
-        a[i].style.backgroundColor = color2
       };
       const cite = document.querySelectorAll("cite");
 
@@ -63,10 +64,22 @@ function color() {
         cite[i].style.color = color1;
         cite[i].style.backgroundColor = color2
       };
+      const header = document.querySelectorAll("header");
+
+      for (let i = 0; i < header.length; i++) {
+        header[i].style.color = color1;
+        header[i].style.backgroundColor = color2
+      };
+      const section = document.querySelectorAll("section");
+
+      for (let i = 0; i < section.length; i++) {
+        section[i].style.color = color1;
+        section[i].style.backgroundColor = color2
+      };
       const div = document.querySelectorAll("div");
 
       for (let i = 0; i < div.length; i++) {
-        div[i].style.color = color1;
+        div[i].style.color = color2;
       };
       // const textarea = document.querySelectorAll("textarea");
       // for (let i = 0; i < a.length; i++) {
@@ -98,11 +111,15 @@ function color() {
 
       const p = document.querySelectorAll("p");
       for (let i = 0; i < p.length; i++) {
-        p[i].style.color = '#648FFF';
-        p[i].style.backgroundColor = '#FFB000';
+        p[i].style.color = color1;
+        p[i].style.backgroundColor = color2;
       };
 
-
+      const strong = document.querySelectorAll("strong");
+      for (let i = 0; i < p.length; i++) {
+        strong[i].style.color = color1;
+        strong[i].style.backgroundColor = color2;
+      };
 
 
 
@@ -117,13 +134,13 @@ function color() {
       const h6 = document.querySelectorAll("h6");
 
       for (let i = 0; i < h2.length; i++) {
-        h2[i].style.color = color1;
-        h2[i].style.backgroundColor = color2;
+        h2[i].style.color = '#DC267F';
+        h2[i].style.backgroundColor = '#FFB000';
 
       };
       for (let i = 0; i < h3.length; i++) {
-        h3[i].style.color = color1;
-        h3[i].style.backgroundColor = color2;
+        h3[i].style.color = '#DC267F';
+        h3[i].style.backgroundColor = '#FFB000';
       };
       for (let i = 0; i < h4.length; i++) {
         h4[i].style.color = color1;
