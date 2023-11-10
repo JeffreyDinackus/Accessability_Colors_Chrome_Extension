@@ -3,8 +3,20 @@ document.getElementById('scheme1').addEventListener('click', function () {
   value = "IBM"
   chrome.storage.sync.set({ key: value }).then(() => {
     console.log("IBM is set");
+
   });
+  location.reload();
 });
+
+document.getElementById('off').addEventListener('click',
+  function () {
+    key = "colorblind"
+    value = "null"
+    chrome.storage.sync.set({ key: value }).then(() => {
+      console.log("Wong is set");
+    });
+    location.replace(location.href);
+  })
 
 // Function for Button 2
 document.getElementById('scheme2').addEventListener('click', function () {

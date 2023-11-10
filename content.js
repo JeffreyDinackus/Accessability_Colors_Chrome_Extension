@@ -28,7 +28,12 @@ function color() {
         div[i].style.color = '#FFB000';
       };
 
+      const img = document.querySelectorAll("img");
 
+      for (let i = 0; i < div.length; i++) {
+        div[i].style.backgroundColor = '';
+        div[i].style.color = '';
+      };
 
       const a = document.querySelectorAll("a");
 
@@ -36,21 +41,21 @@ function color() {
         a[i].style.color = '#785EF0';
         a[i].style.backgroundColor = "#FFB000"
       };
-      const textarea = document.querySelectorAll("textarea");
-      for (let i = 0; i < a.length; i++) {
-        textarea[i].style.backgroundColor = "#FFB000"
-      };
+      // const textarea = document.querySelectorAll("textarea");
+      // for (let i = 0; i < a.length; i++) {
+      //   textarea[i].style.backgroundColor = "#FFB000"
+      // };
 
-      const input = document.querySelectorAll("input");
-      for (let i = 0; i < a.length; i++) {
-        input[i].style.color = '#648FFF';
-        input[i].style.backgroundColor = "#FFB000"
-      };
+      // const input = document.querySelectorAll("input");
+      // for (let i = 0; i < a.length; i++) {
+      //   input[i].style.color = '#648FFF';
+      //   input[i].style.backgroundColor = "#FFB000"
+      // };
       const span = document.querySelectorAll("span");
 
       for (let i = 0; i < span.length; i++) {
         span[i].style.color = '#648FFF';
-        span[i].style.backgroundColor = "#785EF0"
+        span[i].style.backgroundColor = "#FFB000"
       };
       const button = document.querySelectorAll("button");
 
@@ -59,14 +64,15 @@ function color() {
       };
       const h1 = document.querySelectorAll("h1");
       for (let i = 0; i < h1.length; i++) {
-        h1[i].style.color = '#648FFF';
+        h1[i].style.color = '#DC267F';
         h1[i].style.backgroundColor = '#FFB000';
 
       };
 
       const p = document.querySelectorAll("p");
       for (let i = 0; i < p.length; i++) {
-        p[i].style.color = '#648FFF';
+        p[i].style.color = '#FFB000';
+        p[i].style.backgroundColor = '#FFB000';
       };
 
 
