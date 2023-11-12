@@ -3,37 +3,12 @@ console.log("content.js running")
 
 
 function color() {
-  let IBM = {
-
-    "div": "#DC267F", "table": "#648FFF", "a": "", "span": "", "p": "", "body": "#DC267F", "navbar": "#FFB000"
-
-
-  };
-
-  let Tol = {}
-
-  let Wong = {}
-
-
   chrome.storage.sync.get(["key"]).then((result) => {
     console.log("Value currently is " + result.key);
 
 
     if (result.key == "IBM") {
       console.log("IBM TRUE");
-      // const div = document.querySelectorAll("div");
-
-      // for (let i = 0; i < div.length; i++) {
-      //   div[i].style.backgroundColor = '#DC267F';
-      //   div[i].style.color = '#FFB000';
-      // };
-
-      // const img = document.querySelectorAll("img");
-
-      // for (let i = 0; i < img.length; i++) {
-      //   img[i].style.backgroundColor = '';
-      //   img[i].style.color = '';
-      // };
 
       color1 = '#FFB000'
       color2 = '#785EF0'
@@ -43,43 +18,63 @@ function color() {
       body.style.backgroundColor = accent
 
       for (let i = 0; i < code.length; i++) {
-        code[i].style.backgroundColor = color1;
+        code[i].style.backgroundColor = color2;
         code[i].style.color = accent;
       };
+      const ul = document.querySelectorAll("ul");
 
+      for (let i = 0; i < ul.length; i++) {
+        ul[i].style.backgroundColor = color1;
+        ul[i].style.color = color2;
+      };
+      const ol = document.querySelectorAll("ol");
+
+      for (let i = 0; i < ol.length; i++) {
+        ol[i].style.backgroundColor = color1;
+        ol[i].style.color = color2;
+      };
       const li = document.querySelectorAll("li");
 
-      for (let i = 0; i < code.length; i++) {
+      for (let i = 0; i < li.length; i++) {
         li[i].style.backgroundColor = color1;
         li[i].style.color = color2;
       };
       const a = document.querySelectorAll("a");
 
       for (let i = 0; i < a.length; i++) {
-        a[i].style.color = color1;
+        a[i].style.color = color2;
+        // a[i].style.backgroundColor = color1
+
+      };
+      const article = document.querySelectorAll("article");
+
+      for (let i = 0; i < article.length; i++) {
+        article[i].style.color = color2;
+        article[i].style.backgroundColor = color1
+
       };
       const cite = document.querySelectorAll("cite");
 
       for (let i = 0; i < cite.length; i++) {
-        cite[i].style.color = color1;
-        cite[i].style.backgroundColor = color2
+        cite[i].style.color = color2;
+        cite[i].style.backgroundColor = color1
       };
       const header = document.querySelectorAll("header");
 
       for (let i = 0; i < header.length; i++) {
-        header[i].style.color = color1;
-        header[i].style.backgroundColor = color2
+        header[i].style.color = color2;
+        header[i].style.backgroundColor = color1
       };
       const section = document.querySelectorAll("section");
 
       for (let i = 0; i < section.length; i++) {
-        section[i].style.color = color1;
-        section[i].style.backgroundColor = color2
+        section[i].style.color = color2;
+        section[i].style.backgroundColor = color1
       };
       const div = document.querySelectorAll("div");
 
       for (let i = 0; i < div.length; i++) {
-        div[i].style.color = color2;
+        div[i].style.color = color1;
       };
       // const textarea = document.querySelectorAll("textarea");
       // for (let i = 0; i < a.length; i++) {
@@ -100,25 +95,25 @@ function color() {
       const button = document.querySelectorAll("button");
 
       for (let i = 0; i < button.length; i++) {
-        button[i].style.backgroundColor = '#FFB000';
+        button[i].style.backgroundColor = color1;
       };
       const h1 = document.querySelectorAll("h1");
       for (let i = 0; i < h1.length; i++) {
-        h1[i].style.color = '#DC267F';
-        h1[i].style.backgroundColor = '#FFB000';
+        h1[i].style.color = color2;
+        h1[i].style.backgroundColor = color1;
 
       };
 
       const p = document.querySelectorAll("p");
       for (let i = 0; i < p.length; i++) {
-        p[i].style.color = color1;
-        p[i].style.backgroundColor = color2;
+        p[i].style.color = color2;
+        p[i].style.backgroundColor = color1;
       };
 
       const strong = document.querySelectorAll("strong");
-      for (let i = 0; i < p.length; i++) {
-        strong[i].style.color = color1;
-        strong[i].style.backgroundColor = color2;
+      for (let i = 0; i < strong.length; i++) {
+        strong[i].style.color = color2;
+        strong[i].style.backgroundColor = color1;
       };
 
 
@@ -134,30 +129,36 @@ function color() {
       const h6 = document.querySelectorAll("h6");
 
       for (let i = 0; i < h2.length; i++) {
-        h2[i].style.color = '#DC267F';
-        h2[i].style.backgroundColor = '#FFB000';
+        h2[i].style.color = color2;
+        h2[i].style.backgroundColor = color1;
 
       };
       for (let i = 0; i < h3.length; i++) {
-        h3[i].style.color = '#DC267F';
-        h3[i].style.backgroundColor = '#FFB000';
+        h3[i].style.color = color2;
+        h3[i].style.backgroundColor = color1;
       };
       for (let i = 0; i < h4.length; i++) {
-        h4[i].style.color = color1;
-        h4[i].style.backgroundColor = color2;
+        h4[i].style.color = color2;
+        h4[i].style.backgroundColor = color1;
       };
       for (let i = 0; i < h5.length; i++) {
-        h5[i].style.color = color1;
-        h5[i].style.backgroundColor = color2;
+        h5[i].style.color = color2;
+        h5[i].style.backgroundColor = color1;
       };
       for (let i = 0; i < h6.length; i++) {
-        h6[i].style.color = color1;
-        h6[i].style.backgroundColor = color2;
+        h6[i].style.color = color2;
+        h6[i].style.backgroundColor = color1;
       };
-    } else if (result.key == "Wong") {
-      console.log("WONG TRUE");
-    } else if (result.key == "Tol") {
-      console.log("TOL TRUE");
+    } else if (result.key == "2") {
+
+
+
+    } else if (result.key == "3") {
+
+    } else if (result.key == "4") {
+
+    } else if (result.key == "5") {
+
     };
   });
 
