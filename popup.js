@@ -1,11 +1,10 @@
 document.getElementById('scheme1').addEventListener('click', function () {
   key = "colorblind"
-  value = "IBM"
+  value = "1"
   chrome.storage.sync.set({ key: value }).then(() => {
-    console.log("IBM is set");
+    console.log("Scheme1 is set");
 
   });
-  location.reload();
 });
 
 document.getElementById('off').addEventListener('click',
@@ -13,25 +12,40 @@ document.getElementById('off').addEventListener('click',
     key = "colorblind"
     value = "null"
     chrome.storage.sync.set({ key: value }).then(() => {
-      console.log("Wong is set");
+      console.log("Off is set");
     });
-    location.replace(location.href);
   })
 
 // Function for Button 2
 document.getElementById('scheme2').addEventListener('click', function () {
   key = "colorblind"
-  value = "WONG"
+  value = "2"
   chrome.storage.sync.set({ key: value }).then(() => {
-    console.log("Wong is set");
+    console.log("Scheme2 is set");
   });
 });
 
 // Function for Button 3
 document.getElementById('scheme3').addEventListener('click', function () {
   key = "colorblind"
-  value = "Tol"
+  value = "3"
   chrome.storage.sync.set({ key: value }).then(() => {
-    console.log("Tol is set");
+    console.log("3 is set");
+  });
+});
+
+document.getElementById('scheme4').addEventListener('click', function () {
+  key = "colorblind"
+  value = "4"
+  chrome.storage.sync.set({ key: value }).then(() => {
+    console.log("4 is set");
+  });
+});
+
+document.getElementById('scheme5').addEventListener('click', function () {
+  key = "colorblind"
+  value = "5"
+  chrome.storage.sync.set({ key: value }).then(() => {
+    console.log("5 is set");
   });
 });
