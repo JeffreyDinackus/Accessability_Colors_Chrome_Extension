@@ -32,9 +32,23 @@ function color() {
       color2 = '#5D3A9B'
       accent = '#5D3A9B'
     } else if (result.key == "5") {
-
+      color1 = '#1AFF1A'
+      color2 = '#4B0092'
+      accent = '#4B0092'
+    }
+    else if (result.key == "6") {
+      color1 = '#FEFE62'
+      color2 = '#D35FB7'
+      accent = '#D35FB7'
+    } else if (result.key == "7") {
+      color1 = '#005AB5'
+      color2 = '#DC3220'
+      accent = '#DC3220'
+    } else if (result.key == "8") {
+      color1 = '#1A85FF'
+      color2 = '#D41159'
+      accent = '#D41159'
     };
-
 
     const code = document.querySelectorAll("code");
     body = document.querySelector("body");
