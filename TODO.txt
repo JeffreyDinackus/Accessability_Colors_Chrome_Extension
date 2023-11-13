@@ -1,16 +1,12 @@
 
 
-Add proper color schemes
+add colors to popup.html
 
-Add color selection menu ion html 
+run script on page change. 
 
-save setting selected using cookies (?)
+add a img for the icons and adjust manifest 
 
-modify action of content.js to style websites properly
-
-modify content.js to use cookie to choose proper color scheme
-
-test and debug
+test permissions, remove if not needed. 
 
 release and take pictures
 
