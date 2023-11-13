@@ -49,3 +49,27 @@ document.getElementById('scheme5').addEventListener('click', function () {
     console.log("5 is set");
   });
 });
+
+document.getElementById('scheme6').addEventListener('click', function () {
+  key = "colorblind"
+  value = "6"
+  chrome.storage.sync.set({ key: value }).then(() => {
+    console.log("6 is set");
+  });
+});
+
+document.getElementById('scheme7').addEventListener('click', function () {
+  key = "colorblind"
+  value = "7"
+  chrome.storage.sync.set({ key: value }).then(() => {
+    console.log("7 is set");
+  });
+});
+
+document.getElementById('scheme8').addEventListener('click', function () {
+  key = "colorblind"
+  value = "8"
+  chrome.storage.sync.set({ key: value }).then(() => {
+    console.log("8 is set");
+  });
+});
