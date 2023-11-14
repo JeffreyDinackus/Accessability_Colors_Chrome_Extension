@@ -1,10 +1,9 @@
 
 
-add colors to popup.html
 
 run script on page change. 
 
-add a img for the icons and adjust manifest 
+add a img for the icons and adjust manifest
 
 test permissions, remove if not needed. 
 
