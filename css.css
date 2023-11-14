@@ -6,34 +6,47 @@
     text-align: center;
 }
 
-.ibm1 {
-    color: #648FFF;
-    width: 200;
-    height: 200;
-}
-
-#scheme1p {
-    background-color: #648FFF;
-    color: #FE6100
+button {
+    margin-top: 10px;
 }
 
 #scheme1text {
-    background-color: #785EF0;
-    color: #DC267F
+    color: #FFC20A;
+    background-color: #0C7BDC;
 }
 
-#scheme1b {
-    background-color: #FE6100;
-    color: #648FFF
+#scheme2text {
+    color: #994F00;
+    background-color: #006CD1;
+}
+
+#scheme3text {
+    color: #E1BE6A;
+    background-color: #40B0A6;
+}
+
+#scheme4text {
+    color: #E66100;
+    background-color: #5D3A9B;
 }
 
 
-
-
-#scheme1b {
-    background-color: #FFB000;
+#scheme5text {
+    color: #1AFF1A;
+    background-color: #4B0092;
 }
 
-button {
-    margin-top: 10px;
+#scheme6text {
+    color: #FEFE62;
+    background-color: #D35FB7;
+}
+
+#scheme7text {
+    color: #005AB5;
+    background-color: #DC3220;
+}
+
+#scheme8text {
+    color: #1A85FF;
+    background-color: #D41159;
 }

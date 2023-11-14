@@ -10,7 +10,6 @@ function color() {
     accent = ''
 
     if (result.key == "1") {
-      console.log("X")
       color1 = '#FFC20A';
       color2 = '#0C7BDC';
       accent = '#0C7BDC';
