@@ -54,8 +54,8 @@ function color() {
     body.style.backgroundColor = accent
 
     for (let i = 0; i < code.length; i++) {
-      code[i].style.backgroundColor = color2;
-      code[i].style.color = accent;
+      code[i].style.backgroundColor = color1;
+      code[i].style.color = color2;
     };
     const ul = document.querySelectorAll("ul");
 
@@ -110,7 +110,8 @@ function color() {
     const div = document.querySelectorAll("div");
 
     for (let i = 0; i < div.length; i++) {
-      div[i].style.color = color1;
+      div[i].style.color = color2;
+      // div[i].style.backgroundColor = color1;
     };
     // const textarea = document.querySelectorAll("textarea");
     // for (let i = 0; i < a.length; i++) {
@@ -125,8 +126,8 @@ function color() {
     const span = document.querySelectorAll("span");
 
     for (let i = 0; i < span.length; i++) {
-      span[i].style.color = color1;
-      span[i].style.backgroundColor = color2
+      span[i].style.color = color2;
+      span[i].style.backgroundColor = color1
     };
     const button = document.querySelectorAll("button");
 
@@ -139,7 +140,12 @@ function color() {
       h1[i].style.backgroundColor = color1;
 
     };
+    const pre = document.querySelectorAll("pre");
+    for (let i = 0; i < pre.length; i++) {
+      pre[i].style.color = color2;
+      pre[i].style.backgroundColor = color1;
 
+    };
     const p = document.querySelectorAll("p");
     for (let i = 0; i < p.length; i++) {
       p[i].style.color = color2;
@@ -198,4 +204,26 @@ function color() {
 }
 
 
+
+function observeSearchResults() {
+  // identify an element to observe
+  const elementToObserve = document.body
+
+  // create a new instance of `MutationObserver` named `observer`,
+  // passing it a callback function
+  const observer = new MutationObserver(() => {
+    console.log("callback that runs when observer is triggered");
+    color()
+  });
+
+  // call `observe()` on that MutationObserver instance,
+  // passing it the element to observe, and the options object
+  observer.observe(elementToObserve, { subtree: true, childList: true });
+}
+
+// Function to create and configure the MutationObserver
+
+
+// Call the function to start observing the search results
 color()
+observeSearchResults();
