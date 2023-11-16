@@ -51,7 +51,7 @@ function color() {
 
     const code = document.querySelectorAll("code");
     body = document.querySelector("body");
-    body.style.backgroundColor = accent
+    body.style.backgroundColor = color1
 
     for (let i = 0; i < code.length; i++) {
       code[i].style.backgroundColor = color1;
@@ -129,6 +129,16 @@ function color() {
       span[i].style.color = color2;
       span[i].style.backgroundColor = color1
     };
+    const yt1 = document.querySelectorAll(" yt-formatted-string");
+
+    for (let i = 0; i < yt1.length; i++) {
+      yt1[i].style.color = color2;
+      yt1[i].style.backgroundColor = color1;
+
+    };
+
+
+
     const button = document.querySelectorAll("button");
 
     for (let i = 0; i < button.length; i++) {

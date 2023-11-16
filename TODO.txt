@@ -1,7 +1,7 @@
 
 
 
-run script on page change. 
+
 
 add a img for the icons and adjust manifest
 

@@ -4,9 +4,13 @@
   "version": "0.0.1",
   "description": "Color schemes for the colorblind",
   "permissions": [
-    "activeTab",
     "storage"
   ],
+  "icons": {
+    "128": "icon-128x128.png",
+    "48": "icon-48x48.png",
+    "16": "icon-16x16.png"
+  },
   "content_scripts": [
     {
       "matches": [
