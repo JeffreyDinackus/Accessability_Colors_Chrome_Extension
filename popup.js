@@ -10,7 +10,7 @@ document.getElementById('scheme1').addEventListener('click', function () {
 document.getElementById('off').addEventListener('click',
   function () {
     key = "colorblind"
-    value = "null"
+    value = "off"
     chrome.storage.sync.set({ key: value }).then(() => {
       console.log("Off is set");
     });
