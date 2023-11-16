@@ -2,13 +2,15 @@
 
 # Description
 
-This Chrome Extension uses ____ color scheme(s) for the colorblind to help them distinguish items on their screen by using the proper contrast. 
+This Chrome Extension uses high contrast color scheme(s) for the colorblind to help them distinguish items on their screen by using the proper contrast. 
+
+
+Credit for color schemes to David Nichols at https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40
 
 
 # How to use
 
-
-open menu and select a color scheme. Reload the page.
+open menu and select a color scheme. Reload the page. On all subsequent pages, your theme will load until you press the off button or select a different one. 
 
 # Project History
 
