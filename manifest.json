@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Accessibility Colors",
-  "version": "0.0.1",
+  "name": "Colorblind Colors",
+  "version": "1.0",
   "description": "Color schemes for the colorblind",
   "permissions": [
     "storage"
