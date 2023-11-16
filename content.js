@@ -151,7 +151,11 @@ function color() {
       p[i].style.color = color2;
       p[i].style.backgroundColor = color1;
     };
-
+    // const navbar = document.querySelectorAll("nav");
+    // for (let i = 0; i < navbar.length; i++) {
+    //   navbar[i].style.color = color2;
+    //   navbar[i].style.backgroundColor = color1;
+    // };
     const strong = document.querySelectorAll("strong");
     for (let i = 0; i < strong.length; i++) {
       strong[i].style.color = color2;
