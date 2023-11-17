@@ -49,9 +49,19 @@ function color() {
       accent = '#D41159'
     };
 
+    // const elems = document.querySelectorAll('span');
+
+    // elems.forEach(elem => {
+    //   elem.removeAttribute('style');
+    // });
+
     const code = document.querySelectorAll("code");
     body = document.querySelector("body");
     body.style.backgroundColor = color1
+
+
+
+
 
     for (let i = 0; i < code.length; i++) {
       code[i].style.backgroundColor = color1;
@@ -125,10 +135,76 @@ function color() {
     // };
     const span = document.querySelectorAll("span");
 
-    for (let i = 0; i < span.length; i++) {
-      span[i].style.color = color2;
-      span[i].style.backgroundColor = color1
+    const rel = document.querySelectorAll("relative-time");
+    //for github
+    for (let i = 0; i < rel.length; i++) {
+
+
+      rel[i].style.color = color2;
+      rel[i].style.backgroundColor = color1
     };
+    // for (let i = 0; i < span.length; i++) {
+    //   // if (span[i].style.removeProperty) {
+    //   //   span[i].style.removeProperty('color');
+    //   // } else {
+    //   //   span[i].style.removeAttribute('color');
+    //   // }
+    //   span[i].style.color = color2;
+    //   span[i].style.backgroundColor = color1
+    // };
+
+
+    //this just fixes some necessary styling on github, BOO GITHUB. using important styles on their website. 
+    const github1 = document.querySelectorAll('.color-fg-muted');
+
+    for (let i = 0; i < github1.length; i++) {
+      github1[i].classList.remove("color-fg-muted");
+
+    }
+
+
+    const elements = document.querySelectorAll('span');
+
+    elements.forEach(element => {
+      element.style.setProperty('color', color2, 'important');
+      element.style.setProperty('background-color', color1, 'important');
+    });
+    const summary2 = document.querySelectorAll('summary');
+
+    summary2.forEach(summary23 => {
+      summary23.style.setProperty('color', color2, 'important');
+      summary23.style.setProperty('background-color', color1, 'important');
+    });
+    const a2 = document.querySelectorAll('a');
+
+    a2.forEach(a23 => {
+      a23.style.setProperty('color', color2, 'important');
+      a23.style.setProperty('background-color', color1, 'important');
+    });
+
+    const div2 = document.querySelectorAll('div');
+
+    div2.forEach(div23 => {
+      div23.style.setProperty('color', color2, 'important');
+    });
+    const p2 = document.querySelectorAll('p');
+
+    p2.forEach(pElem => {
+      pElem.style.setProperty('color', color2, 'important');
+      pElem.style.setProperty('background-color', color1, 'important');
+    });
+    const li2 = document.querySelectorAll('li');
+
+    li2.forEach(liElem => {
+      liElem.style.setProperty('color', color2, 'important');
+      liElem.style.setProperty('background-color', color1, 'important');
+    });
+    const button2 = document.querySelectorAll('button');
+
+    button2.forEach(buttonElem => {
+      buttonElem.style.setProperty('color', color2, 'important');
+      buttonElem.style.setProperty('background-color', color1, 'important');
+    });
     const yt1 = document.querySelectorAll(" yt-formatted-string");
 
     for (let i = 0; i < yt1.length; i++) {
