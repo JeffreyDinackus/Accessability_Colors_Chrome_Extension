@@ -193,8 +193,30 @@ function color() {
       Elem.style.setProperty('color', color2, 'important');
       Elem.style.setProperty('background-color', color1, 'important');
     });
+    const nobr = document.querySelectorAll("nobr");
+    if (nobr == null) {
+      console.log("x")
+    } else {
+      nobr.forEach(Elem => {
+        Elem.style.setProperty('color', color2, 'important');
+        Elem.style.setProperty('background-color', color1, 'important');
+      });
+    }
 
 
+    const resultstats = document.querySelector("#result-stats");
+    if (resultstats != null) {
+      resultstats.forEach(Elem => {
+        Elem.style.setProperty('color', color2, 'important');
+        Elem.style.setProperty('background-color', color1, 'important');
+      });
+    }
+
+    const em = document.querySelectorAll("em");
+    em.forEach(Elem => {
+      Elem.style.setProperty('color', color2, 'important');
+      Elem.style.setProperty('background-color', color1, 'important');
+    });
 
     const p = document.querySelectorAll("p");
     p.forEach(Elem => {
@@ -275,3 +297,5 @@ function observeSearchResults() {
 // Call the function to start observing the search results
 color()
 observeSearchResults();
+
+
