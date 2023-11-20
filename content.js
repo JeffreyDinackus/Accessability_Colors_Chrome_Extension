@@ -289,13 +289,25 @@ function observeSearchResults() {
   // call `observe()` on that MutationObserver instance,
   // passing it the element to observe, and the options object
   observer.observe(elementToObserve, { subtree: true, childList: true });
+
+
+
 }
 
 // Function to create and configure the MutationObserver
 
 
 // Call the function to start observing the search results
-color()
+
 observeSearchResults();
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+
+  color()
+
+})
+
 
 
