@@ -15,42 +15,42 @@ function color() {
       accent = ''
 
       if (result.key == "1") {
-        color1 = '#FFC20A';
-        color2 = '#0C7BDC';
+        color2 = '#FFC20A';
+        color1 = '#0C7BDC';
         accent = '#0C7BDC';
 
       } else if (result.key == "2") {
 
-        color1 = '#994F00'
-        color2 = '#006CD1'
+        color2 = '#994F00'
+        color1 = '#006CD1'
         accent = '#006CD1'
 
       } else if (result.key == "3") {
 
-        color1 = '#E1BE6A'
-        color2 = '#40B0A6'
+        color2 = '#E1BE6A'
+        color1 = '#40B0A6'
         accent = '#40B0A6'
 
       } else if (result.key == "4") {
-        color1 = '#E66100'
-        color2 = '#5D3A9B'
+        color2 = '#E66100'
+        color1 = '#5D3A9B'
         accent = '#5D3A9B'
       } else if (result.key == "5") {
-        color1 = '#1AFF1A'
-        color2 = '#4B0092'
+        color2 = '#1AFF1A'
+        color1 = '#4B0092'
         accent = '#4B0092'
       }
       else if (result.key == "6") {
-        color1 = '#FEFE62'
-        color2 = '#D35FB7'
+        color2 = '#FEFE62'
+        color1 = '#D35FB7'
         accent = '#D35FB7'
       } else if (result.key == "7") {
-        color1 = '#005AB5'
-        color2 = '#DC3220'
+        color2 = '#005AB5'
+        color1 = '#DC3220'
         accent = '#DC3220'
       } else if (result.key == "8") {
-        color1 = '#1A85FF'
-        color2 = '#D41159'
+        color2 = '#1A85FF'
+        color1 = '#D41159'
         accent = '#D41159'
       };
 
