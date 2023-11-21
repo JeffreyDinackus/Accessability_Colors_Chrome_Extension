@@ -58,177 +58,203 @@ function color() {
 
 
     const code = document.querySelectorAll("code");
-
-    code.forEach(Elem => {
-      Elem.style.setProperty('color', color2, 'important');
-      Elem.style.setProperty('background-color', color1, 'important');
-    });
+    if (code != null) {
+      code.forEach(Elem => {
+        Elem.style.setProperty('color', color2, 'important');
+        Elem.style.setProperty('background-color', color1, 'important');
+      });
+    }
     const ul = document.querySelectorAll("ul");
-
-    ul.forEach(Elem => {
-      Elem.style.setProperty('color', color2, 'important');
-      Elem.style.setProperty('background-color', color1, 'important');
-    });
+    if (ul != null) {
+      ul.forEach(Elem => {
+        Elem.style.setProperty('color', color2, 'important');
+        Elem.style.setProperty('background-color', color1, 'important');
+      });
+    }
     const ol = document.querySelectorAll("ol");
-
-    ol.forEach(Elem => {
-      Elem.style.setProperty('color', color2, 'important');
-      Elem.style.setProperty('background-color', color1, 'important');
-    });
+    if (ol != null) {
+      ol.forEach(Elem => {
+        Elem.style.setProperty('color', color2, 'important');
+        Elem.style.setProperty('background-color', color1, 'important');
+      });
+    };
     const li = document.querySelectorAll("li");
-
-    li.forEach(Elem => {
-      Elem.style.setProperty('color', color2, 'important');
-      Elem.style.setProperty('background-color', color1, 'important');
-    });
+    if (li != null) {
+      li.forEach(Elem => {
+        Elem.style.setProperty('color', color2, 'important');
+        Elem.style.setProperty('background-color', color1, 'important');
+      });
+    };
     const article = document.querySelectorAll("article");
+    if (article != null) {
 
-    article.forEach(Elem => {
-      Elem.style.setProperty('color', color2, 'important');
-      Elem.style.setProperty('background-color', color1, 'important');
-    });
+      article.forEach(Elem => {
+        Elem.style.setProperty('color', color2, 'important');
+        Elem.style.setProperty('background-color', color1, 'important');
+      });
+    };
     const cite = document.querySelectorAll("cite");
+    if (cite != null) {
 
-    cite.forEach(Elem => {
-      Elem.style.setProperty('color', color2, 'important');
-      Elem.style.setProperty('background-color', color1, 'important');
-    });
+      cite.forEach(Elem => {
+        Elem.style.setProperty('color', color2, 'important');
+        Elem.style.setProperty('background-color', color1, 'important');
+      });
+    };
     const header = document.querySelectorAll("header");
+    if (header != null) {
 
-    header.forEach(Elem => {
-      Elem.style.setProperty('color', color2, 'important');
-      Elem.style.setProperty('background-color', color1, 'important');
-    });
+      header.forEach(Elem => {
+        Elem.style.setProperty('color', color2, 'important');
+        Elem.style.setProperty('background-color', color1, 'important');
+      });
+    };
     const section = document.querySelectorAll("section");
+    if (section != null) {
 
-    section.forEach(Elem => {
-      Elem.style.setProperty('color', color2, 'important');
-      Elem.style.setProperty('background-color', color1, 'important');
-    });
-
+      section.forEach(Elem => {
+        Elem.style.setProperty('color', color2, 'important');
+        Elem.style.setProperty('background-color', color1, 'important');
+      });
+    };
 
 
     const rel = document.querySelectorAll("relative-time");
     //for github
-    rel.forEach(Elem => {
-      Elem.style.setProperty('color', color2, 'important');
-      Elem.style.setProperty('background-color', color1, 'important');
-    });
+    if (rel != null) {
 
+      rel.forEach(Elem => {
+        Elem.style.setProperty('color', color2, 'important');
+        Elem.style.setProperty('background-color', color1, 'important');
+      });
+    };
 
     //this just fixes some necessary styling on github, BOO GITHUB. using important styles on their website. 
     const github1 = document.querySelectorAll('.color-fg-muted');
+    if (github1 != null) {
 
-    for (let i = 0; i < github1.length; i++) {
-      github1[i].classList.remove("color-fg-muted");
+      for (let i = 0; i < github1.length; i++) {
+        github1[i].classList.remove("color-fg-muted");
 
+      };
+    };
+
+    const span = document.querySelectorAll('span');
+    if (span != null) {
+
+      span.forEach(element => {
+        element.style.setProperty('color', color2, 'important');
+        element.style.setProperty('background-color', color1, 'important');
+      });
+    }
+    const summary2 = document.querySelectorAll('summary');
+    if (summary2 != null) {
+
+      summary2.forEach(summary23 => {
+        summary23.style.setProperty('color', color2, 'important');
+        summary23.style.setProperty('background-color', color1, 'important');
+      });
+    }
+    const a2 = document.querySelectorAll('a');
+    if (a2 != null) {
+
+      a2.forEach(a23 => {
+        a23.style.setProperty('color', color2, 'important');
+        a23.style.setProperty('background-color', color1, 'important');
+      });
+    }
+    const div2 = document.querySelectorAll('div');
+    if (div2 != null) {
+
+      div2.forEach(div23 => {
+        div23.style.setProperty('color', color2, 'important');
+      });
+    }
+
+    const li2 = document.querySelectorAll('li');
+    if (li2 != null) {
+
+      li2.forEach(liElem => {
+        liElem.style.setProperty('color', color2, 'important');
+        liElem.style.setProperty('background-color', color1, 'important');
+      });
+    }
+    const button2 = document.querySelectorAll('button');
+    if (button2 != null) {
+
+      button2.forEach(buttonElem => {
+        buttonElem.style.setProperty('color', color2, 'important');
+        buttonElem.style.setProperty('background-color', color1, 'important');
+      });
+    }
+    const yt1 = document.querySelectorAll('yt-formatted-string');
+    if (yt1 != null) {
+
+      yt1.forEach(yt1Elem => {
+        yt1Elem.style.setProperty('color', color2, 'important');
+        yt1Elem.style.setProperty('background-color', color1, 'important');
+      });
     }
 
 
-    const span = document.querySelectorAll('span');
-
-    span.forEach(element => {
-      element.style.setProperty('color', color2, 'important');
-      element.style.setProperty('background-color', color1, 'important');
-    });
-    const summary2 = document.querySelectorAll('summary');
-
-    summary2.forEach(summary23 => {
-      summary23.style.setProperty('color', color2, 'important');
-      summary23.style.setProperty('background-color', color1, 'important');
-    });
-    const a2 = document.querySelectorAll('a');
-
-    a2.forEach(a23 => {
-      a23.style.setProperty('color', color2, 'important');
-      a23.style.setProperty('background-color', color1, 'important');
-    });
-
-    const div2 = document.querySelectorAll('div');
-
-    div2.forEach(div23 => {
-      div23.style.setProperty('color', color2, 'important');
-    });
-
-    const li2 = document.querySelectorAll('li');
-
-    li2.forEach(liElem => {
-      liElem.style.setProperty('color', color2, 'important');
-      liElem.style.setProperty('background-color', color1, 'important');
-    });
-    const button2 = document.querySelectorAll('button');
-
-    button2.forEach(buttonElem => {
-      buttonElem.style.setProperty('color', color2, 'important');
-      buttonElem.style.setProperty('background-color', color1, 'important');
-    });
-
-    const yt1 = document.querySelectorAll('yt-formatted-string');
-
-    yt1.forEach(yt1Elem => {
-      yt1Elem.style.setProperty('color', color2, 'important');
-      yt1Elem.style.setProperty('background-color', color1, 'important');
-    });
 
 
-
-
-    // const button = document.querySelectorAll("button");
-
-    // for (let i = 0; i < button.length; i++) {
-    //   button[i].style.backgroundColor = color1;
-    // };
 
     const h1 = document.querySelectorAll('h1');
+    if (h1 != null) {
 
-    h1.forEach(h1Elem => {
-      h1Elem.style.setProperty('color', color2, 'important');
-      h1Elem.style.setProperty('background-color', color1, 'important');
-    });
-
+      h1.forEach(h1Elem => {
+        h1Elem.style.setProperty('color', color2, 'important');
+        h1Elem.style.setProperty('background-color', color1, 'important');
+      });
+    }
 
 
     const pre = document.querySelectorAll("pre");
-    pre.forEach(Elem => {
-      Elem.style.setProperty('color', color2, 'important');
-      Elem.style.setProperty('background-color', color1, 'important');
-    });
+    if (pre != null) {
+
+      pre.forEach(Elem => {
+        Elem.style.setProperty('color', color2, 'important');
+        Elem.style.setProperty('background-color', color1, 'important');
+      });
+    }
     const nobr = document.querySelectorAll("nobr");
-    if (nobr == null) {
-      console.log("x")
-    } else {
+    if (nobr != null) {
       nobr.forEach(Elem => {
         Elem.style.setProperty('color', color2, 'important');
         Elem.style.setProperty('background-color', color1, 'important');
       });
-    }
+    };
 
 
     const resultstats = document.querySelector("#result-stats");
     if (resultstats != null) {
-      resultstats.forEach(Elem => {
+      resultstats.style.setProperty('color', color2, 'important');
+      resultstats.style.setProperty('background-color', color1, 'important');
+
+    }
+
+    const em = document.querySelectorAll("em");
+    if (em != null) {
+      em.forEach(Elem => {
+        Elem.style.setProperty('color', color2, 'important');
+        Elem.style.setProperty('background-color', color1, 'important');
+      });
+    };
+    const p = document.querySelectorAll("p");
+    if (p != null) {
+      p.forEach(Elem => {
         Elem.style.setProperty('color', color2, 'important');
         Elem.style.setProperty('background-color', color1, 'important');
       });
     }
-
-    const em = document.querySelectorAll("em");
-    em.forEach(Elem => {
-      Elem.style.setProperty('color', color2, 'important');
-      Elem.style.setProperty('background-color', color1, 'important');
-    });
-
-    const p = document.querySelectorAll("p");
-    p.forEach(Elem => {
-      Elem.style.setProperty('color', color2, 'important');
-      Elem.style.setProperty('background-color', color1, 'important');
-    });
     const strong = document.querySelectorAll("strong");
-    strong.forEach(Elem => {
-      Elem.style.setProperty('color', color2, 'important');
-      Elem.style.setProperty('background-color', color1, 'important');
-    });
-
+    if (strong != null) {
+      strong.forEach(Elem => {
+        Elem.style.setProperty('color', color2, 'important');
+        Elem.style.setProperty('background-color', color1, 'important');
+      });
+    };
 
 
     const h2 = document.querySelectorAll("h2");
@@ -240,29 +266,37 @@ function color() {
     const h5 = document.querySelectorAll("h5");
 
     const h6 = document.querySelectorAll("h6");
+    if (h2 != null) {
+      h2.forEach(Elem => {
+        Elem.style.setProperty('color', color2, 'important');
+        Elem.style.setProperty('background-color', color1, 'important');
+      });
+    }
+    if (h3 != null) {
+      h3.forEach(Elem => {
+        Elem.style.setProperty('color', color2, 'important');
+        Elem.style.setProperty('background-color', color1, 'important');
+      });
+    }
+    if (h4 != null) {
+      h4.forEach(Elem => {
+        Elem.style.setProperty('color', color2, 'important');
+        Elem.style.setProperty('background-color', color1, 'important');
+      });
+    }
+    if (h5 != null) {
+      h5.forEach(Elem => {
+        Elem.style.setProperty('color', color2, 'important');
+        Elem.style.setProperty('background-color', color1, 'important');
+      });
+    }
+    if (h6 != null) {
+      h6.forEach(Elem => {
+        Elem.style.setProperty('color', color2, 'important');
+        Elem.style.setProperty('background-color', color1, 'important');
+      });
 
-    h2.forEach(Elem => {
-      Elem.style.setProperty('color', color2, 'important');
-      Elem.style.setProperty('background-color', color1, 'important');
-    });
-    h3.forEach(Elem => {
-      Elem.style.setProperty('color', color2, 'important');
-      Elem.style.setProperty('background-color', color1, 'important');
-    });
-    h4.forEach(Elem => {
-      Elem.style.setProperty('color', color2, 'important');
-      Elem.style.setProperty('background-color', color1, 'important');
-    });
-    h5.forEach(Elem => {
-      Elem.style.setProperty('color', color2, 'important');
-      Elem.style.setProperty('background-color', color1, 'important');
-    });
-    h6.forEach(Elem => {
-      Elem.style.setProperty('color', color2, 'important');
-      Elem.style.setProperty('background-color', color1, 'important');
-    });
-
-
+    }
 
 
 
