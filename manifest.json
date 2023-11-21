@@ -3,7 +3,7 @@
   "name": "High Contrast Colors Schemes for the Colorblind",
   "version": "1.0",
   "author": "JavascriptCow",
-  "description": "Accessible color schemes for the colorblind",
+  "description": "Accessible high contrast color schemes for the colorblind",
   "permissions": [
     "storage"
   ],
