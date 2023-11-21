@@ -1,9 +1,18 @@
+.box {
+    display: flex;
+}
+
 .float-child {
     display: inline-block;
 }
 
 .center {
     text-align: center;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
 }
 
 button {
