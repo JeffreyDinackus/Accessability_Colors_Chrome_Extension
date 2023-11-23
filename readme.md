@@ -1,6 +1,13 @@
 # High Contrast Colors for the Colorblind Chrome Extension. 
 
-<!--ADD PICS OF PLUGIN.-->
+!["A color scheme"](./store5final.png)
+!["A color scheme"](./store2final.png)
+!["A color scheme"](./store3final.png)
+!["A color scheme"](./store4final.png)
+!["A color scheme"](./store1final.png)
+!["menu"](./store1final.png)
+
+
 This is an Chrome extension that allows Colorblind individuals to use high contrast colors to reduce eye strain and make browsing the web easier. 
 
 Featuring 8 high contrast colorset specifically for the colorblind, users can select the one that works best for their vision and experience the web with new clarity. 
