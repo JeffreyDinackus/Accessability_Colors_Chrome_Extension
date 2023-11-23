@@ -4,7 +4,6 @@
 !["A color scheme"](./store2final.png)
 !["A color scheme"](./store3final.png)
 !["A color scheme"](./store4final.png)
-!["A color scheme"](./store1final.png)
 !["menu"](./store1final.png)
 
 
