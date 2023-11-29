@@ -7,23 +7,25 @@
 !["menu"](./store1final.png)
 
 
-This is an Chrome extension that allows Colorblind individuals to use high contrast colors to reduce eye strain and make browsing the web easier. 
+# Official Chrome Store Description
 
-Featuring 8 high contrast colorset specifically for the colorblind, users can select the one that works best for their vision and experience the web with new clarity. 
+This is an Chrome extension that allows Colorblind individuals to use high contrast colors to reduce eye strain and make browsing the web easier.
 
-Tested on websites you use! Such as Reddit, Google, Github, Dev.to and Medium. The current implmenetation works well on most websites. All websites are built differently and some may have bad practices that interfere with this plugin which are mostly inline styles with the important property. 
+Featuring 8 high contrast color sets specifically for the colorblind, users can select the one that works best for their vision and experience the web with new clarity.
+
+Tested on websites you use! Such as Reddit, Google, GitHub, Dev.to and Medium. The current implementation works well on most websites. All websites are built differently and some may have bad practices that interfere with this plugin which are mostly inline styles with the important property with high specificity(CSS).
 
 No ads for spyware. 100% free. Try it for yourself and see better today!
 
+Credit to David Nichols at https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40 for color schemes. 
 
-# Description
-
-This Chrome Extension uses high contrast color scheme(s) for the colorblind to help them distinguish items on their screen by using the proper contrast. 
-
-
-Credit for color schemes to David Nichols at https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40
 
 # Installation
+
+Download from the chrome store with a one click install: https://chromewebstore.google.com/detail/contrast-colors-schemes-f/kmhdplcfiijnmcikebddnebmcnlnbfap?pli=1
+
+
+OR
 
 Download this github repo with the code button
 
